@@ -1,0 +1,8 @@
+prefix=/home/mag/catkin_ws_pfe/install
+
+Name: line_follower_robot
+Description: Description of line_follower_robot
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: geometry_msgs rospy std_msgs message_runtime

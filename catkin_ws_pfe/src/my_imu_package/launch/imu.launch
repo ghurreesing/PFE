@@ -1,0 +1,5 @@
+<launch>
+  <node pkg="my_imu_package" type="imu_node.py" name="imu_node" output="screen">
+    <!-- Add any parameters your node needs -->
+  </node>
+</launch>

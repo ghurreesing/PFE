@@ -1,0 +1,16 @@
+<launch>
+    <!-- Ultrasonic Distance Publisher-->
+    <node pkg="line_with_ultrasound" type="ultrasonic_dist.py" name="ultrasonic_dist" output="screen">
+    </node>
+
+    <!--Obstacle Avoidance Node-->
+    <node pkg="line_with_ultrasound" type="ObsAvoid.py" name="obstacle_avoidance" output="screen">
+        <!-- Parameters -->
+        <param name="turning_max" value="45" />
+        <param name="threshold" value="20" />
+        <param name="forward_speed" value="40" />
+        <param name="turn_speed" value="40" />
+        <param name="backward_speed" value="40" />
+    </node>
+</launch>
+

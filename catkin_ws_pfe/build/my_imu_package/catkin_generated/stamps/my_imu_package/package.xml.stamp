@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>my_imu_package</name>
+  <version>0.0.0</version>
+  <description>The my_imu_package package</description>
+
+  <maintainer email="mag@todo.todo">mag</maintainer>
+
+  <license>TODO</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>rospy</depend>
+  <depend>sensor_msgs</depend>
+  <depend>tf</depend>
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+  </export>
+</package>

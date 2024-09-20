@@ -1,0 +1,8 @@
+prefix=/home/mag/catkin_ws_pfe/install
+
+Name: line_with_ultrasound
+Description: Description of line_with_ultrasound
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: geometry_msgs rospy std_msgs message_runtime

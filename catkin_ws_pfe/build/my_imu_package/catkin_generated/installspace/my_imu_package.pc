@@ -1,0 +1,8 @@
+prefix=/home/mag/catkin_ws_pfe/install
+
+Name: my_imu_package
+Description: Description of my_imu_package
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

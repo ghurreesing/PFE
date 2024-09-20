@@ -1,0 +1,8 @@
+prefix=/home/mag/catkin_ws_pfe/devel
+
+Name: camera
+Description: Description of camera
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: cv_bridge rospy sensor_msgs std_msgs image_transport

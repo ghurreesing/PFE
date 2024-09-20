@@ -1,0 +1,6 @@
+<launch>
+    <node name="read_line" pkg="line_follower_robot" type="read_line.py" output="screen"/>
+    <node name="line_follower" pkg="line_follower_robot" type="line_follower.py" output="screen"/>
+    <node name="driver_motor" pkg="line_follower_robot" type="dmV7.py" output="screen"/>
+
+</launch>

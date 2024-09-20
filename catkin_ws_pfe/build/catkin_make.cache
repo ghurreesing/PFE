@@ -1,0 +1,2 @@
+app_interface:camera:follow_new:line_follower_robot:line_with_ultrasound:my_imu_package
+-DCATKIN_DEVEL_PREFIX=/home/mag/catkin_ws_pfe/devel -DCMAKE_INSTALL_PREFIX=/home/mag/catkin_ws_pfe/install -G Unix Makefiles

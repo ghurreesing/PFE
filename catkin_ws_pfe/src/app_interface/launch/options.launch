@@ -1,0 +1,9 @@
+<launch>
+    <!-- ROSBridge server -->
+    <node name="rosbridge_websocket" pkg="rosbridge_server" type="rosbridge_websocket" output="screen">
+        <param name="port" value="9091" />
+    </node>
+
+    <!-- service node to start/stop launch files -->
+    <node name="multi_launch_stop_service" pkg="app_interface" type="launch_stop_serviceV0.py" output="screen"/>
+</launch>

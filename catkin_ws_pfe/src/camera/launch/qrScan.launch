@@ -1,0 +1,11 @@
+<launch>
+
+  <node name="camera_Pub" pkg="camera" type="cam_pub.py" output="screen">
+  </node>
+
+  <node name="qr_detect" pkg="camera" type="qr_detect.py" output="screen">
+  </node>
+
+  <node name="web_video_server" pkg="web_video_server" type="web_video_server" output="screen" />
+
+</launch>

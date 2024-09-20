@@ -1,0 +1,12 @@
+<launch>
+  <node name="camera_Pub" pkg="camera" type="cam_pub.py" output="screen"></node>
+
+  <node name="qr_data_pub" pkg="camera" type="qr_data_pub.py" output="screen"></node>
+
+  <node name="read_line" pkg="camera" type="readLn.py" output="screen"/>
+  <node name="line_follower" pkg="camera" type="lnFollow.py" output="screen"/>
+  <node name="driver_motor" pkg="camera" type="driver_motor.py" output="screen"/>
+
+   <node name="web_video_server" pkg="web_video_server" type="web_video_server" output="screen" />
+
+</launch>

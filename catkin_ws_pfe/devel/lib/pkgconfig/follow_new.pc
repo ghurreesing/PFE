@@ -1,0 +1,8 @@
+prefix=/home/mag/catkin_ws_pfe/devel
+
+Name: follow_new
+Description: Description of follow_new
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

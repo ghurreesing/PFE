@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/mag/catkin_ws_pfe/devel/setup.sh
